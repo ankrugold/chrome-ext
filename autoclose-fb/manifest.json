@@ -1,0 +1,20 @@
+{
+    "name": "prodhack",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "shut down FB tabs",
+    "options_page": "stfb_option.html",	
+    "permissions": [
+
+        "contextMenus",
+	"storage",
+	"tabs"
+
+     ],
+
+
+    "background": {
+
+        "scripts": ["jquery-1.7.1.min.js","app.js"]
+    }
+}
