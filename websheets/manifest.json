@@ -1,0 +1,18 @@
+{
+    "name": "websheets",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "converting text to music",
+
+    "permissions": [
+
+        "contextMenus"
+
+     ],
+
+
+    "background": {
+
+        "scripts": ["jquery-1.7.1.min.js","audio.js","app.js"]
+    }
+}
